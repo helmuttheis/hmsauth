@@ -3,20 +3,26 @@ Authentication for Xamarin Forms
 
 # Installation
 You can install the package with NuGet.
-Ths package does not contain the dependencies, that means you have to install them.
+The package does not contain the dependencies, that means you have to install them.
 You need the followiong packages:
-	Newtonsoft.JSON 
-	PCLCrypt 
+	* Newtonsoft.JSON 
+	* PCLCrypt 
 
 # Usage
 ## Console application
 
 Create a console application
+
 	set .NET Framework to 4.5
+	
 	NuGet:
+	
 	add Newtonsoft.JSON 
+	
 	add PCLCrypt 
+	
 	add HMSAuth
+	
 	
 ```C#
 	 static void Main(string[] args)
@@ -31,7 +37,7 @@ Create a console application
             Console.WriteLine("done");
                 
         }
-´´´
+```
 
 	
 ## Xamarin Forms application
@@ -64,7 +70,7 @@ Create a Xamarin Forms project
 	e.g.: 
 ```C#
 		new App("Droid")
-´´´
+```
 	Valid platform nanes are
 	..* Droid
 	..* iOS
@@ -78,7 +84,7 @@ Create a Xamarin Forms project
 			{
 				Enum.TryParse(platform, out this.platform);
 				...
-´´´	
+```
 	
 	
 	
