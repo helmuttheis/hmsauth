@@ -1,7 +1,7 @@
 # HMS.Auth
 Authentication for Xamarin Forms
 
-For a simple approach with `System.Net.Http` see [Authentication in a portable library with System.Net.Http](wiki/Authentication-in-a-portable-library-with-System.Net.Http)
+For a simple approach with `System.Net.Http` see [Authentication in a portable library with System.Net.Http](../../wiki/Authentication-in-a-portable-library-with-System.Net.Http)
 
 # Installation
 You can install the package with NuGet.
